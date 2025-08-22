@@ -51,7 +51,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: s(20),
     paddingVertical: vs(15),
     marginTop: vs(22),
-
   },
   socialTitle: {
     fontSize: s(16),
@@ -64,7 +63,6 @@ const styles = StyleSheet.create({
     fontWeight: "semibold",
     marginTop: vs(20),
     marginStart: s(19),
-    
   },
   socialItem: {
     paddingTop: vs(9000),
