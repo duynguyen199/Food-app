@@ -1,13 +1,10 @@
 import * as React from "react";
-import Svg, { G, Path, Defs, ClipPath, Rect } from "react-native-svg";
-const CameraIcon = (props) => (
+import Svg, { G, Path, Defs, ClipPath, Rect, SvgProps } from "react-native-svg";
+export const CameraIcon = (props) => (
   <Svg
     width={16}
     height={17}
     viewBox="0 0 16 17"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
   >
     <G clipPath="url(#clip0_1_20)">
       <Path
@@ -27,4 +24,5 @@ const CameraIcon = (props) => (
     </Defs>
   </Svg>
 );
-export default CameraIcon;
+
+

@@ -4,12 +4,14 @@ import IntroScreen from "./assets/screen/IntroScreen";
 import ContactUsScreen from "./assets/screen/ContactUsScreen";
 import SendButton from "./src/component/SendButton";
 import HomeScreen from "./assets/screen/HomeScreen";
+import PaymentScreen from "./assets/screen/PaymentScreen";
 
 export default function App() {
   return (
     //  <IntroScreen/>
     // <ContactUsScreen />
-    <HomeScreen />
+    // <HomeScreen />
+    <PaymentScreen/>
   );
 }
 
